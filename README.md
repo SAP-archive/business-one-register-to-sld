@@ -1,12 +1,14 @@
 # Description
-Windows CLI tool to register a SAP Business One server into an existing SAP Business One SLD.
+This tool is used to register existing SAP Business One server into a SAP Business One SLD.
+It is meant to be used in the automatic creation of SAP Business One environment - once the environment is created, you can use this tool to register it to an existing SAP Business One SLD automatically. You can then log into SAP Business One Client without the need for additional manual work.
 
 # Limitations
-* The tool registering to the SLD only support username/password SQL connection
+* The tool registering to the SLD only support username/password SQL connection. It cannot use Windows authentication or other kind of authentication.
 
 
 # Requirements
-For the Microsoft Windows platform only.
+* For the Microsoft Windows platform only.
+* Microsoft .Net 4.5.1
 
 
 # Configuration
@@ -34,15 +36,12 @@ For the Microsoft Windows platform only.
 
 # Download and Installation
 
-## Download
-The source code can be cloned and compiled from this GitHub page.
-
-## Installation
-The tool does not require to be installed.
+You can download the tool in the [GitHub release section](../../releases).
+Once the latest release has been downloaded, simply unzip the archive and run RegisterDBServerToSLD.exe from a Windows console.
 
 
 # How to obtain support
-This project allows and expects users to post questions or bug reports in the GitHub bug tracking system.
+This project allows and expects users to post questions or bug reports in the [GitHub bug tracking system](../../issues).
 
 # Contributing
 If you would like to contribute, please fork this project and post pull requests.
