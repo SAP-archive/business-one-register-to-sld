@@ -1,3 +1,8 @@
+![](https://img.shields.io/badge/STATUS-NOT%20CURRENTLY%20MAINTAINED-red.svg?longCache=true&style=flat)
+
+# Important Notice
+This public repository is read-only and no longer maintained.
+
 # Description
 This tool is used to register existing SAP Business One server into a SAP Business One SLD.
 It is meant to be used in the automatic creation of SAP Business One environment - once the environment is created, you can use this tool to register it to an existing SAP Business One SLD automatically. You can then log into SAP Business One Client without the need for additional manual work.
